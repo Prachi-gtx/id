@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+     
+     <h3>Registration Form</h3>
+     <form action="">
+         <label>Name:
+             <input type="text"><br><br>
+         </label>
+         <label> Gender:
+             <input type="radio" name="gender"> Male
+             <input type="radio" name="gender">Female<br><br> 
+         </label>
+         <label>Mobile Number:
+             <input type="number" name="Mobile number" minlength="10" maxlength="13" placeholder="correct number"><br><br>
+         </label>
+         <label> Enter Email:
+             <input type="email" name="enter email" placeholder="username@gmail.com" pattern=".+@gmail.com" >
+         </label>
+         <br>
+         <br>
+         <label> Enter Password:
+             <input type="password" name="correct password" maxlength="10" minlength="6" required ><br><br>
+         </label>
+         <label for="">Select Location <br>
+            <input type="checkbox" name="location" >Noida <br>
+            <input type="checkbox" name="location" >Bhopal <br>
+             <input type="checkbox" name="location" >Amravati <br>
+             <input type="checkbox"  name="location" >Nagpur <br>
+             <input type="checkbox"  name="location">Pune <br>
+             <input type="checkbox"  name="location">Mumbai <br>
+             <input type="checkbox"  name="location">Delhi<br><br>
+             
+             </label>
+             <label for="">State:
+                 <select name="state" id="sate names">
+                     <option value="">..please choose any option..</option>
+                     <option value="AP">AP</option>
+                     <option value="MP">MP</option>
+                     <option value="MH">MH</option>
+                     <option value="DL">DL</option>
+                     <option value="UP">UP</option>
+                     <option value="J&K">J&K</option>
+                     <option value="GJ">GJ</option>
+                 </select><br><br>
+                
+
+             </label>
+             <label for="">
+                 <input type="reset" value="Reset">
+                 <input type="submit" value="Submit">
+                 <input type="date" name="Date" id="">
+             </label>
+
+         </label>
+     </form>
+        <hr>
+        <a href="index.html">Home page</a>           
+</body>
+</html>
